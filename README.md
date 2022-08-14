@@ -1,21 +1,21 @@
-# Image style transfer AI (Deep Learning)
+# Deep Learning : Transfert de style d'images
 
+**Auteurs : [Paul-Antoine Inghelbrecht](https://github.com/NotGluGlu), [Joël Hamilcaro](https://github.com/Joel-Hamilcaro/), [Jie Tu](https://github.com/jie-tu)**
 
-**Authors : Paul-Antoine Inghelbrecht, Joël Hamilcaro, Jie Tu**
+**Projet : [`Notebook viewer`](https://nbviewer.org/github/JJPA-Project/Image-Style-Transfer/blob/main/1_Projet_HAMILCARO_TU_INGHELBRECHT.ipynb)**
 
-## Project Summary:
+## Résumé du projet :
 
-The objective of this project was to develop an image style transfer algorithm. After studying different research papers, we concluded that the types of structures that can be used to develop a style transfer algorithm are the following:
+L'objectif de ce projet était de réaliser un algorithme de transfert de style d'images. Après avoir étudié différents papiers de recherches, nous avons conclu que les types de structures que l'on peut utiliser pour mettre au point un algorithme de transfert de style sont les suivants :
 
-- **(1) « A Neural Algorithm of Artistic Style »** ([Gatys, Ecker, Bethge](https://arxiv.org/abs/1508.06576))
-- **(2) A trained model for the transfer of a single style** ([Johnson, Alahi, Fei-Fei](https://arxiv.org/abs/1603.08155))
-- **(3) Pre-trained model for any type of arbitrary transfer** [Huang](https://arxiv.org/abs/1703.06868) et [Ghiasi](https://arxiv.org/abs/1705.06830).
+- **(1) « Un algorithme neuronal du style artistique »** ([Gatys, Ecker, Bethge](https://arxiv.org/abs/1508.06576))
+- **(2) Un modèle entraîné pour le transfert d'un seul style** ([Johnson, Alahi, Fei-Fei](https://arxiv.org/abs/1603.08155))
+- **(3) Modèle pré-entraîné pour tout type de transfert arbitraire** [Huang](https://arxiv.org/abs/1703.06868) et [Ghiasi](https://arxiv.org/abs/1705.06830).
 
-In this project, we opted for the first method. Then, as an extension, we tried to implement the other two.
+Dans ce projet, nous avons opté pour la première méthode. Puis, en extension nous avons essayé d'implémenter les deux autres.
 
 ## Notebooks :
 
-- `1_Projet_HAMILCARO_TU_INGHELBRECHT.ipypnb` :Contains the whole project in which we implemented the **(1)** model. We created it step by step, then we tried to improve it and to optimize it in the finest possible way (variation of hyperparameters, tests with different optimizers, etc.). We obtained very satisfactory results both in terms of speed of execution and image quality. Indeed, this approach is very fast (even without GPU), and the output images are very satisfactory.
+- [`1_Projet_HAMILCARO_TU_INGHELBRECHT.ipypnb`](https://nbviewer.org/github/JJPA-Project/Image-Style-Transfer/blob/main/1_Projet_HAMILCARO_TU_INGHELBRECHT.ipynb) : Contient l'intégralité du projet dans lequel nous avons implémenté le modèle **(1)**. Nous l'avons créé pas à pas, puis nous avons cherché à l'améliorer et à l'optimiser de manière la plus fine possible (variation des hyperparamètres, tests avec différents optimiseurs, etc.). Nous avons obtenu des résultats très satisfaisant à la fois en terme de rapidité d'exécution et de qualité d'images. En effet, cette approche est très rapide (même sans GPU), et les images générées en sortie sont très satisfaisantes.
 
-
-- `2_Annexe_HAMILCARO_TU_INGHELBRECHT.ipypnb` : As an extension, we have made an attempt to implement a specialized architecture in a single style (which it will be able to transfer to any image). This is the model cited in the article by [Johnson, Alahi and Fei-Fei](https://arxiv.org/abs/1603.08155). Similarly, we have done research on the implementation of a model which, in a single training step, adapts to any type of transfer: the "Arbitrary Style Transfer", described in particular in the papers by [Huang](https://arxiv.org/abs/1703.06868) and [Ghiasi](https://arxiv.org/abs/1705.06830).
+- [`2_Annexe_HAMILCARO_TU_INGHELBRECHT.ipypnb`](https://nbviewer.org/github/JJPA-Project/Image-Style-Transfer/blob/main/2_Annexe_HAMILCARO_TU_INGHELBRECHT.ipynb) : En guise d'extension, nous avons fait une tentative d'implémentation d'une architecture spécialisée dans un seul style (qu'il pourra transférer à n'importe quelle image). Il s'agit du modèle cité dans l'article de [Johnson, Alahi et Fei-Fei](https://arxiv.org/abs/1603.08155). De même nous avons fait des recherches sur l'implémentation d'un modèle qui, en une seule étape d'entraînement, s'adapte à tout type de transfert : l' « Arbitrary Style Transfert », décrit notamment dans les papiers de [Huang](https://arxiv.org/abs/1703.06868) et [Ghiasi](https://arxiv.org/abs/1705.06830).
