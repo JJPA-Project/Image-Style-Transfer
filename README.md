@@ -1,12 +1,15 @@
 # Deep Learning : Transfert de style d'images
 
-![EXPLANATORY IMAGE](res/01-explanatory_image.png)
 
 **Auteurs : [Paul-Antoine Inghelbrecht](https://github.com/NotGluGlu), [Joël Hamilcaro](https://github.com/Joel-Hamilcaro/), [Jie Tu](https://github.com/jie-tu)**
 
 **Projet : [Notebook viewer](https://nbviewer.org/github/JJPA-Project/Image-Style-Transfer/blob/main/1_Projet_HAMILCARO_TU_INGHELBRECHT.ipynb)**
 
-**Architecture neuronale : VGG-19 Pré-entrainé**
+**Principe du transfert de style :**
+
+![EXPLANATORY IMAGE](res/01-explanatory_image.png)
+
+**Architecture neuronale (VGG-19 Pré-entrainé) :**
 
 ![VGG-19](res/02-architecture.png)
 
