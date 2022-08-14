@@ -1,6 +1,6 @@
 # Deep Learning : Transfert de style d'images
 
-![EXPLANATORY IMAGE](res/01_explanatory_image.png)
+![EXPLANATORY IMAGE](res/01-explanatory_image.png)
 
 **Auteurs : [Paul-Antoine Inghelbrecht](https://github.com/NotGluGlu), [Joël Hamilcaro](https://github.com/Joel-Hamilcaro/), [Jie Tu](https://github.com/jie-tu)**
 
@@ -8,7 +8,7 @@
 
 **Architecture neuronale : VGG-19 Pré-entrainé**
 
-![VGG-19](res/02_architecture.png)
+![VGG-19](res/02-architecture.png)
 
 ## Résumé du projet :
 
@@ -28,6 +28,6 @@ Dans ce projet, nous avons opté pour la première méthode. Puis, en extension 
 
 # Exemple de résultats :
 
-![EXEMPLE 00](res/exemple_00.png)
-![EXEMPLE 01](res/exemple_01.png)
-![EXEMPLE 01](res/exemple_02.png)
+![EXEMPLE 00](res/example_00.png)
+![EXEMPLE 01](res/example_01.png)
+![EXEMPLE 02](res/example_02.png)
